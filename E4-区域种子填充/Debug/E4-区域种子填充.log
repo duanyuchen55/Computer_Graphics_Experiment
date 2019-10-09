@@ -1,0 +1,13 @@
+﻿  源.cpp
+E:\图形学\Computer_Graphics_Experiment\E4-区域种子填充\源.cpp(154,16): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E4-区域种子填充\源.cpp(154,13): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E4-区域种子填充\源.cpp(228,21): warning C4018:  “<”: 有符号/无符号不匹配
+E:\图形学\Computer_Graphics_Experiment\E4-区域种子填充\源.cpp(232,40): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E4-区域种子填充\源.cpp(232,26): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E4-区域种子填充\源.cpp(233,40): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E4-区域种子填充\源.cpp(233,26): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E4-区域种子填充\源.cpp(237,40): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E4-区域种子填充\源.cpp(237,26): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E4-区域种子填充\源.cpp(238,48): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E4-区域种子填充\源.cpp(238,30): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+  E4-区域种子填充.vcxproj -> E:\图形学\Computer_Graphics_Experiment\Debug\E4-区域种子填充.exe

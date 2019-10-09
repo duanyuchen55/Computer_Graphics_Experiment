@@ -1,0 +1,16 @@
+﻿  源.cpp
+E:\图形学\Computer_Graphics_Experiment\E1-方中有圆圆中有方\源.cpp(41,39): warning C4244:  “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E1-方中有圆圆中有方\源.cpp(41,18): warning C4244:  “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E1-方中有圆圆中有方\源.cpp(44,48): warning C4244:  “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E1-方中有圆圆中有方\源.cpp(44,18): warning C4244:  “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E1-方中有圆圆中有方\源.cpp(45,19): warning C4244:  “=”: 从“double”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E1-方中有圆圆中有方\源.cpp(51,44): warning C4244:  “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E1-方中有圆圆中有方\源.cpp(51,17): warning C4244:  “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E1-方中有圆圆中有方\源.cpp(75,39): warning C4244:  “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E1-方中有圆圆中有方\源.cpp(75,18): warning C4244:  “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E1-方中有圆圆中有方\源.cpp(78,48): warning C4244:  “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E1-方中有圆圆中有方\源.cpp(78,18): warning C4244:  “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E1-方中有圆圆中有方\源.cpp(79,19): warning C4244:  “=”: 从“double”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E1-方中有圆圆中有方\源.cpp(85,44): warning C4244:  “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E1-方中有圆圆中有方\源.cpp(85,17): warning C4244:  “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+  E1-方中有圆圆中有方.vcxproj -> E:\图形学\Computer_Graphics_Experiment\Debug\E1-方中有圆圆中有方.exe

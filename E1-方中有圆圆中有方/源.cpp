@@ -5,7 +5,7 @@
 const GLfloat Pi = 3.1415926536f;
 
 //GLfloat R = 1.0f;
-void display1();//无穷尽焉
+void display1();//无穷尽焉-导致死机
 void display2();//有穷
 
 int main(int argc, char* argv[])
@@ -50,7 +50,7 @@ void display1()//无穷尽焉
 		for (int i = 1; i <= 150; ++i)
 			glVertex2f(R * cos(2 * Pi / 150 * i), R * sin(2 * Pi / 150 * i));
 		glEnd();
-		//无穷尽焉的glFlush();就写在这里
+		//无穷尽焉的glFlush();就写在这里，及时输出
 		glFlush();
 		k++;
 	}

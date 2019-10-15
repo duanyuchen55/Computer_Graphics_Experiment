@@ -155,17 +155,14 @@ void CS_LineClip(float x1, float y1, float x2, float y2)
 		if ((LEFT & code) != 0)//在左边线的外边，求交点
 		{
 			pt = get_point(vertice[0].x, vertice[0].y, vertice[1].x, vertice[1].y, x1, y1, x2, y2);
-			//pt = get_point(vertice[0].x, vertice[0].y, vertice[2].x, vertice[2].y, x1, y1, x2, y2);
 		}
 		else if ((RIGHT & code) != 0)//在右边线的外边，求交点
 		{
 			pt = get_point(vertice[0].x, vertice[0].y, vertice[2].x, vertice[2].y, x1, y1, x2, y2);
-			//pt = get_point(vertice[1].x, vertice[1].y, vertice[2].x, vertice[2].y, x1, y1, x2, y2);
 		}
 		else if ((BOTTOM & code) != 0)//在下边线的外边，求交点
 		{
 			pt = get_point(vertice[1].x, vertice[1].y, vertice[2].x, vertice[2].y, x1, y1, x2, y2);
-			//pt = get_point(vertice[0].x, vertice[0].y, vertice[1].x, vertice[1].y, x1, y1, x2, y2);
 		}
 
 		if (code == code1)

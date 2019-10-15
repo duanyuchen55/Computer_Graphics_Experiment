@@ -119,7 +119,7 @@ void SutherlandHodgmanClip(EDGE ClipBoundary)
 {
 	point s, p, ip;
 	output_vertice.clear();
-	s = input_vertice[input_vertice.size() - 1];
+	s = input_vertice[input_vertice.size() - 1];//สืฮฒ
 
 	for (int j = 0; j < input_vertice.size(); j++)
 	{

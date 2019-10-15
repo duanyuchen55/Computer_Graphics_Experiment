@@ -1,19 +1,19 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Bresenham画直线.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   源.cpp
-E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(95,8): warning C4244:  “初始化”: 从“double”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(96,8): warning C4244:  “初始化”: 从“double”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(105,17): warning C4244:  “=”: 从“double”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(115,17): warning C4244:  “=”: 从“double”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(131,18): warning C4244:  “=”: 从“double”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(133,33): warning C4244:  “参数”: 从“double”转换到“GLint”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(133,23): warning C4244:  “参数”: 从“double”转换到“GLint”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(153,18): warning C4244:  “=”: 从“double”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(154,33): warning C4244:  “参数”: 从“double”转换到“GLint”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(154,23): warning C4244:  “参数”: 从“double”转换到“GLint”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(174,18): warning C4244:  “=”: 从“double”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(176,33): warning C4244:  “参数”: 从“double”转换到“GLint”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(176,23): warning C4244:  “参数”: 从“double”转换到“GLint”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(195,18): warning C4244:  “=”: 从“double”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(197,33): warning C4244:  “参数”: 从“double”转换到“GLint”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(197,23): warning C4244:  “参数”: 从“double”转换到“GLint”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(134,8): warning C4244:  “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(135,8): warning C4244:  “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(144,17): warning C4244:  “=”: 从“double”转换到“int”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(154,17): warning C4244:  “=”: 从“double”转换到“int”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(170,18): warning C4244:  “=”: 从“double”转换到“int”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(172,33): warning C4244:  “参数”: 从“double”转换到“GLint”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(172,23): warning C4244:  “参数”: 从“double”转换到“GLint”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(192,18): warning C4244:  “=”: 从“double”转换到“int”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(193,33): warning C4244:  “参数”: 从“double”转换到“GLint”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(193,23): warning C4244:  “参数”: 从“double”转换到“GLint”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(213,18): warning C4244:  “=”: 从“double”转换到“int”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(215,33): warning C4244:  “参数”: 从“double”转换到“GLint”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(215,23): warning C4244:  “参数”: 从“double”转换到“GLint”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(234,18): warning C4244:  “=”: 从“double”转换到“int”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(236,33): warning C4244:  “参数”: 从“double”转换到“GLint”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\Bresenham画直线\源.cpp(236,23): warning C4244:  “参数”: 从“double”转换到“GLint”，可能丢失数据
   Bresenham画直线.vcxproj -> E:\图形学\Computer_Graphics_Experiment\Debug\E2-Bresenham画直线.exe

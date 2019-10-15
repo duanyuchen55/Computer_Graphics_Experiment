@@ -1,5 +1,7 @@
-//DFS 系统递归栈
+//使用dfs，bfs两种方法都可以实现
+//bfs使用系统递归栈太慢，可以用stack
 
+//DFS 系统递归栈
 //#include<iostream>
 //#include<vector>
 //#include<GL/glut.h>
@@ -162,16 +164,14 @@ int main(int argc, char* argv[])
 	glutInitWindowSize(window_width, window_height);
 	glutCreateWindow("区域种子填充");
 	glMatrixMode(GL_PROJECTION);/*设置为投影类型模式和其他观察参数*/
-	//glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();/*设置为投影类型模式和其他观察参数*/
 	//gluOrtho2D(0, window_width, window_height, 0);/*设置为投影类型模式和其他观察参数，观察窗口的大小要与画布大小一致，所以直接设置全局变量即可*/
-	gluOrtho2D(0, window_width, 0, window_height);//上面的不可以！！！
+	gluOrtho2D(0, window_width, 0, window_height);//上面的坐标设置不可以！！！
 
 	glClearColor(1, 1, 1, 1);//设置绘制窗口颜色为白色
 	glClear(GL_COLOR_BUFFER_BIT);
 
 	glutMouseFunc(&mymouse);
-	//glutKeyboardFunc(&KeyBoards);
 	glutMainLoop();
 	return 0;
 }
@@ -218,6 +218,7 @@ void BoundaryFill4_Stack(int x, int y)
 	while (!q.empty())
 	{
 		point now = q.top();
+		//point now = q.front();
 		q.pop();
 		int nowx = now.x, nowy = now.y;
 		float color[3];

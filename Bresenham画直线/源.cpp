@@ -23,7 +23,6 @@ int main(int argc, char* argv[])
 	glutCreateWindow("Bresenham算法画直线");
 
 	glClearColor(1, 1, 1, 1);//设置绘制窗口颜色为白色
-	//glClear(GL_COLOR_BUFFER_BIT);//清除窗口内容
 
 	glMatrixMode(GL_PROJECTION);/*设置为投影类型模式和其他观察参数*/
 	glLoadIdentity();/*设置为投影类型模式和其他观察参数*/
@@ -93,7 +92,7 @@ void bresenham1(GLint x1, GLint y1, GLint x2, GLint y2)
 	int dt = 2 * (dy - dx);
 	int ds = 2 * dy;
 
-	//判别式的值
+	//判别式的值d=2k*dx-dx = 2*dy-dx
 	int d = 2 * dy - dx;
 
 	while (x != x2)
@@ -104,7 +103,7 @@ void bresenham1(GLint x1, GLint y1, GLint x2, GLint y2)
 			d += dt;
 			y += ty;
 		}
-		else//选S点，x方向不加步长
+		else//选S点，y方向不加步长
 		{
 			//d(i+1) = d(i) + 2*dy
 			d += ds;

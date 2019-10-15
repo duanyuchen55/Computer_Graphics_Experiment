@@ -51,9 +51,9 @@ void MidPointCircle(int x0, int y0, int r)
 	glEnd();
 	while (x <= y)
 	{
-		if (d < 0)
+		if (d < 0)//(x+1,y-0.5)在圆里面，所以选(x+1.y),且下一次判别式为(x+2,y-0.5)
 			d += 2 * x + 3;
-		else
+		else//(x+1,y-0.5)在圆外面，所以选(x+1.y-1),且下一次判别式为(x+2,y-1.5)
 		{
 			d += 2 * (x - y) + 5;
 			y--;

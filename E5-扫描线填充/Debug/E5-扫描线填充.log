@@ -1,11 +1,11 @@
 ﻿  源.cpp
 E:\图形学\Computer_Graphics_Experiment\E5-扫描线填充\源.cpp(17,5): warning C4244:  “初始化”: 从“int”转换到“float”，可能丢失数据
 E:\图形学\Computer_Graphics_Experiment\E5-扫描线填充\源.cpp(17,12): warning C4244:  “初始化”: 从“int”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E5-扫描线填充\源.cpp(60,16): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E5-扫描线填充\源.cpp(60,13): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E5-扫描线填充\源.cpp(68,20): warning C4018:  “<”: 有符号/无符号不匹配
-E:\图形学\Computer_Graphics_Experiment\E5-扫描线填充\源.cpp(71,22): warning C4244:  “=”: 从“float”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E5-扫描线填充\源.cpp(195,18): warning C4244:  “参数”: 从“float”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E5-扫描线填充\源.cpp(220,21): warning C4018:  “<”: 有符号/无符号不匹配
-E:\图形学\Computer_Graphics_Experiment\E5-扫描线填充\源.cpp(250,25): warning C4305:  “参数”: 从“double”到“GLfloat”截断
+E:\图形学\Computer_Graphics_Experiment\E5-扫描线填充\源.cpp(61,16): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E5-扫描线填充\源.cpp(61,13): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E5-扫描线填充\源.cpp(69,20): warning C4018:  “<”: 有符号/无符号不匹配
+E:\图形学\Computer_Graphics_Experiment\E5-扫描线填充\源.cpp(72,22): warning C4244:  “=”: 从“float”转换到“int”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E5-扫描线填充\源.cpp(196,18): warning C4244:  “参数”: 从“float”转换到“int”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E5-扫描线填充\源.cpp(221,21): warning C4018:  “<”: 有符号/无符号不匹配
+E:\图形学\Computer_Graphics_Experiment\E5-扫描线填充\源.cpp(251,25): warning C4305:  “参数”: 从“double”到“GLfloat”截断
   E5-扫描线填充.vcxproj -> E:\图形学\Computer_Graphics_Experiment\Debug\E5-扫描线填充.exe

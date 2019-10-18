@@ -38,6 +38,7 @@ int main(int argc, char* argv[])
 	glutInitWindowPosition(100, 50);
 	glutInitWindowSize(window_width, window_height);
 	glutCreateWindow("扫描线填充");
+	cout << "左键画点\n右键连接成多边形\n中键开始扫描线填充" << endl;
 
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
@@ -46,8 +47,7 @@ int main(int argc, char* argv[])
 	glClearColor(1, 1, 1, 1);
 	glClear(GL_COLOR_BUFFER_BIT);
 
-	glutMouseFunc(&mymouse);
-	//glutDisplayFunc(&display);
+	glutMouseFunc(&mymouse); 
 
 	glutMainLoop();
 	return 0;
@@ -68,7 +68,7 @@ void PolyScan()
 	for (int i = 0; i < vertice.size(); i++)
 		/*Max_Y = max(Max_Y, vertice[i].y);*/
 		if (vertice[i].y > Max_Y)
-			Max_Y = vertice[i].y;
+			Max_Y = vertice[i].y; 
 	//cout << "MAX_Y=" << Max_Y << endl;
 
 
@@ -132,7 +132,7 @@ void PolyScan()
 			p->x = p->x + p->dx;
 			p = p->next;
 		}
-
+		  
 		//排序
 		AET* tq = pAET;
 		p = pAET->next;

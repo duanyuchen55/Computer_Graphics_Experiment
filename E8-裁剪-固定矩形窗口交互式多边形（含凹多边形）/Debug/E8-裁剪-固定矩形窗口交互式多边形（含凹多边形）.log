@@ -1,0 +1,23 @@
+﻿  源.cpp
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(125,22): warning C4244:  “参数”: 从“GLint”转换到“float”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(125,18): warning C4244:  “参数”: 从“GLint”转换到“float”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(173,23): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(173,20): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(177,23): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(177,20): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(189,20): warning C4018:  “<”: 有符号/无符号不匹配
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(262,33): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(262,16): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(263,28): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(263,11): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(273,21): warning C4018:  “<”: 有符号/无符号不匹配
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(303,21): warning C4018:  “<”: 有符号/无符号不匹配
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(305,103): warning C4244:  “参数”: 从“float”转换到“GLint”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(305,78): warning C4244:  “参数”: 从“float”转换到“GLint”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(305,53): warning C4244:  “参数”: 从“float”转换到“GLint”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(305,32): warning C4244:  “参数”: 从“float”转换到“GLint”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(307,142): warning C4244:  “参数”: 从“float”转换到“GLint”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(307,97): warning C4244:  “参数”: 从“float”转换到“GLint”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(307,52): warning C4244:  “参数”: 从“float”转换到“GLint”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\源.cpp(307,31): warning C4244:  “参数”: 从“float”转换到“GLint”，可能丢失数据
+  E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）.vcxproj -> E:\图形学\Computer_Graphics_Experiment\Debug\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）.exe

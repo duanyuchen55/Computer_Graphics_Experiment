@@ -1,0 +1,12 @@
+﻿  源.cpp
+E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(41,35): warning C4244:  “参数”: 从“const float”转换到“int”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(41,21): warning C4244:  “参数”: 从“const float”转换到“int”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(62,16): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(63,11): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(70,21): warning C4018:  “<”: 有符号/无符号不匹配
+E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(96,55): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(97,55): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(102,54): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(103,54): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
+E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(115,20): warning C4018:  “<”: 有符号/无符号不匹配
+  E8-bezier曲线.vcxproj -> E:\图形学\Computer_Graphics_Experiment\Debug\E8-bezier曲线.exe

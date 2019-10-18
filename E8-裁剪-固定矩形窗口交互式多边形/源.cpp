@@ -2,6 +2,7 @@
 #include<iostream>
 #include<algorithm>
 #include<vector>
+#include<map>
 #include<time.h>
 using namespace std;
 const int window_width = 800, window_height = 600;
@@ -11,6 +12,11 @@ struct point
 	point() {}
 	point(float xx, float yy)
 		:x(xx), y(yy) {}
+
+	bool operator < (const point& a)const
+	{
+		return x < a.x;
+	}
 };
 struct EDGE//Edge
 {
@@ -19,6 +25,7 @@ struct EDGE//Edge
 	EDGE(float bxx, float byy, float exx, float eyy)
 		:bx(bxx), by(byy), ex(exx), ey(eyy) {}
 };
+map<point, int> vis;
 vector<point> input_vertice;
 vector<point> output_vertice;
 float intersect_point_color[3] = { 1,0,0 };
@@ -124,12 +131,18 @@ void SutherlandHodgmanClip(EDGE ClipBoundary)
 	for (int j = 0; j < input_vertice.size(); j++)
 	{
 		p = input_vertice[j];
-		if (inside(p, ClipBoundary))//s在内
+		if (inside(p, ClipBoundary))//p在内
 		{
 			if (inside(s, ClipBoundary))//sp都在窗口内
 			{
 				//output(p);
 				output_vertice.push_back(p);
+
+				//map<point, int>::iterator it = vis.find(p);
+				//if (it == vis.end())//没找到
+				//	vis[p] = 1;
+				//else
+				//	vis[p]++;
 			}
 			else//p在里面 s不在
 			{
@@ -138,6 +151,18 @@ void SutherlandHodgmanClip(EDGE ClipBoundary)
 				//output(p); 
 				output_vertice.push_back(ip);
 				output_vertice.push_back(p);
+
+				//map<point, int>::iterator it = vis.find(p);
+				//if (it == vis.end())//没找到
+				//	vis[p] = 1;
+				//else
+				//	vis[p]++;
+
+				//it = vis.find(ip);
+				//if (it == vis.end())//没找到
+				//	vis[ip] = 1;
+				//else
+				//	vis[ip]++;
 			}
 		}
 		else//s在外面
@@ -148,6 +173,11 @@ void SutherlandHodgmanClip(EDGE ClipBoundary)
 
 				//output(ip);
 				output_vertice.push_back(ip);
+				//map<point, int>::iterator it = vis.find(ip);
+				//if (it == vis.end())//没找到
+				//	vis[ip] = 1;
+				//else
+				//	vis[ip]++;
 			}
 			//sp都在外面则无输出
 		}
@@ -215,10 +245,11 @@ void keyboard(unsigned char key, int x, int y)
 		glBegin(GL_LINE_LOOP);
 		glColor3fv(intersect_point_color);
 		for (int i = 0; i < output_vertice.size(); i++)
-			//draw_a_point(output_vertice[i].x, output_vertice[i].y, intersect_point_color);
+		{//draw_a_point(output_vertice[i].x, output_vertice[i].y, intersect_point_color);
 			glVertex2f(output_vertice[i].x, output_vertice[i].y);
-
+		}
 		glEnd();
 		glFlush();
+
 	}
 }

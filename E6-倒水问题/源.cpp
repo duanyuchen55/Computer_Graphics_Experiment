@@ -2,7 +2,7 @@
 #include<algorithm>
 using namespace std;
 const int maxn = 1010;
-
+//使用queue BFS发现无法记录路径，只能改回结构体
 struct node//状态结构体
 {
 	int a, b;
@@ -188,6 +188,7 @@ void displayPath(int i)
 
 int main()
 {
+	cout << "请依次输入：两个杯子的容量，最终要的水的升数" << endl;
 	cin >> A >> B >> C;
 	int t = bfs(0, 0);
 	if (t != -1)
@@ -196,6 +197,8 @@ int main()
 		cout << "操作次数为：" << t << endl;
 		//displayPath(q[rear]);
 		displayPath(rear);
+
+		cout << "\b\b  " << endl;
 	}
 	else
 		cout << "Impossible" << endl;

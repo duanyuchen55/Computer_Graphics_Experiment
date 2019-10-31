@@ -1,12 +1,24 @@
-﻿  源.cpp
-E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(41,35): warning C4244:  “参数”: 从“const float”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(41,21): warning C4244:  “参数”: 从“const float”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(62,16): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(63,11): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(70,21): warning C4018:  “<”: 有符号/无符号不匹配
-E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(96,55): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(97,55): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(102,54): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(103,54): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(115,20): warning C4018:  “<”: 有符号/无符号不匹配
-  E8-bezier曲线.vcxproj -> E:\图形学\Computer_Graphics_Experiment\Debug\E8-bezier曲线.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (E8-bezier曲线.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  源.cpp
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(36,35): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(36,21): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(72,27): warning C4305: “初始化”: 从“int”到“float”截断
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(73,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(93,40): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(96,18): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(97,13): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(111,23): warning C4018: “<”: 有符号/无符号不匹配
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(124,37): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(129,63): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(142,22): warning C4018: “<”: 有符号/无符号不匹配
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(153,40): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(176,38): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(180,28): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(192,22): warning C4018: “<”: 有符号/无符号不匹配
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(239,55): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(240,55): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(245,54): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(246,54): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(258,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\Computer_Graphics\Computer_Graphics_Experiment\E8-bezier曲线\源.cpp(267,20): warning C4018: “<”: 有符号/无符号不匹配
+  E8-bezier曲线.vcxproj -> E:\Computer_Graphics\Computer_Graphics_Experiment\Debug\E9-bezier曲线.exe

@@ -1,21 +1,23 @@
 ﻿  源.cpp
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(49,35): warning C4244:  “参数”: 从“const float”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(49,21): warning C4244:  “参数”: 从“const float”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(78,10): warning C4244:  “初始化”: 从“double”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(79,10): warning C4244:  “初始化”: 从“double”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(106,28): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(107,24): warning C4244:  “=”: 从“double”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(189,8): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(203,21): warning C4018:  “<”: 有符号/无符号不匹配
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(221,21): warning C4018:  “<”: 有符号/无符号不匹配
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(236,23): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(237,11): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(247,21): warning C4018:  “<”: 有符号/无符号不匹配
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(266,8): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(272,8): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(282,10): warning C4477:  “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“double”
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(282,10): warning C4477:  “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“double”
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(282,10): warning C4477:  “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 4 拥有了类型“double”
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(282,10): warning C4477:  “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 5 拥有了类型“double”
-E:\图形学\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(292,21): warning C4018:  “<”: 有符号/无符号不匹配
-  E7-裁剪-交互式三角形窗口裁剪直线.vcxproj -> E:\图形学\Computer_Graphics_Experiment\Debug\E7-裁剪-交互式三角形窗口裁剪直线.exe
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(44,27): warning C4305: “初始化”: 从“int”到“float”截断
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(45,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(76,35): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(76,21): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(105,10): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(106,10): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(133,28): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(134,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(219,9): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(233,22): warning C4018: “<”: 有符号/无符号不匹配
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(251,22): warning C4018: “<”: 有符号/无符号不匹配
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(273,23): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(274,11): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(284,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(303,8): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(309,8): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(319,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“double”
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(319,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“double”
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(319,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 4 拥有了类型“double”
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(319,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 5 拥有了类型“double”
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式三角形窗口裁剪直线\源.cpp(329,21): warning C4018: “<”: 有符号/无符号不匹配
+  E7-裁剪-交互式三角形窗口裁剪直线.vcxproj -> E:\Computer_Graphics\Computer_Graphics_Experiment\Debug\E7-裁剪-交互式三角形窗口裁剪直线.exe

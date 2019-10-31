@@ -1,46 +1,46 @@
 ﻿  源.cpp
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(17,17): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(17,13): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(18,23): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(18,15): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(33,24): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(33,16): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(34,24): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(34,16): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(35,25): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(35,17): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(36,25): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(36,16): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(37,25): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(37,16): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(38,25): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(38,17): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(39,26): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(39,17): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(40,26): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(40,17): warning C4244:  “参数”: 从“int”转换到“GLfloat”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(48,25): warning C4244:  “参数”: 从“float”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(48,21): warning C4244:  “参数”: 从“float”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(48,17): warning C4244:  “参数”: 从“float”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(54,7): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(55,7): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(56,9): warning C4477:  “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(56,9): warning C4477:  “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“double”
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(56,9): warning C4477:  “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“double”
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(56,9): warning C4477:  “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 4 拥有了类型“double”
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(60,25): warning C4244:  “参数”: 从“float”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(60,21): warning C4244:  “参数”: 从“float”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(60,17): warning C4244:  “参数”: 从“float”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(70,8): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(71,8): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(72,10): warning C4477:  “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(72,10): warning C4477:  “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“double”
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(72,10): warning C4477:  “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“double”
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(72,10): warning C4477:  “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 4 拥有了类型“double”
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(74,10): warning C4477:  “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(75,26): warning C4244:  “参数”: 从“float”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(75,22): warning C4244:  “参数”: 从“float”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(75,18): warning C4244:  “参数”: 从“float”转换到“int”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(81,8): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(82,8): warning C4244:  “=”: 从“int”转换到“float”，可能丢失数据
-  E3-中点画圆.vcxproj -> E:\图形学\Computer_Graphics_Experiment\Debug\E3-中点画圆.exe
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(49,17): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(49,13): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(50,23): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(50,15): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(65,24): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(65,16): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(66,24): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(66,16): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(67,25): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(67,17): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(68,25): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(68,16): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(69,25): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(69,16): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(70,25): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(70,17): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(71,26): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(71,17): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(72,26): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(72,17): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(79,25): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(79,21): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(79,17): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(85,7): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(86,7): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(87,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(87,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“double”
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(87,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“double”
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(87,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 4 拥有了类型“double”
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(91,25): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(91,21): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(91,17): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(101,8): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(102,8): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(103,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(103,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“double”
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(103,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“double”
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(103,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 4 拥有了类型“double”
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(105,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(106,26): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(106,22): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(106,18): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(112,8): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E3-中点画圆\源.cpp(113,8): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  E3-中点画圆.vcxproj -> E:\Computer_Graphics\Computer_Graphics_Experiment\Debug\E3-中点画圆.exe

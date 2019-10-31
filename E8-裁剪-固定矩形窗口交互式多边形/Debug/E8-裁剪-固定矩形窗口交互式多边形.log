@@ -1,9 +1,1 @@
-﻿  源.cpp
-E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形\源.cpp(131,20): warning C4018:  “<”: 有符号/无符号不匹配
-E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形\源.cpp(206,33): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形\源.cpp(206,16): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形\源.cpp(207,28): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形\源.cpp(207,11): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
-E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形\源.cpp(217,22): warning C4018:  “<”: 有符号/无符号不匹配
-E:\图形学\Computer_Graphics_Experiment\E8-裁剪-固定矩形窗口交互式多边形\源.cpp(247,21): warning C4018:  “<”: 有符号/无符号不匹配
-  E8-裁剪-固定矩形窗口交互式多边形.vcxproj -> E:\图形学\Computer_Graphics_Experiment\Debug\E8-裁剪-固定矩形窗口交互式多边形.exe
+﻿  E8-裁剪-固定矩形窗口交互式多边形.vcxproj -> E:\Computer_Graphics\Computer_Graphics_Experiment\Debug\E8-裁剪-固定矩形窗口交互式多边形.exe

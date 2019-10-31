@@ -235,16 +235,16 @@ void draw_a_point(float x, float y, float color[])
 void draw_line_point(float x, float y)
 {
 	vis[x][y]++;
-	glPointSize(1.5f);
+	glPointSize(2.5f);
 	glBegin(GL_POINTS);
-	if (vis[x][y] % 2 == 0)
+	if (vis[x][y] % 2 == 0)//访问偶数次，涂白色
 	{
 		glColor3f(1, 1, 1);
 		glVertex2f(x, y);
 	}
 	else
 	{
-		glColor3f(1, 0, 0);
+		glColor3f(1, 0, 0);//奇数次，涂红色
 		glVertex2f(x, y);
 	}
 

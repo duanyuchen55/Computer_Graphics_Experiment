@@ -57,7 +57,7 @@ void draw_a_point(GLint x, GLint y)
 	glEnd();
 }
 
-void bresenham1(GLint x1, GLint y1, GLint x2, GLint y2)
+void bresenham1(GLint x1, GLint y1, GLint x2, GLint y2)//感觉这个方法更好，不过需要推导，推导过程笔记在书里
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 
@@ -118,7 +118,7 @@ void bresenham1(GLint x1, GLint y1, GLint x2, GLint y2)
 	}
 }
 
-void bresenham2(GLint x1, GLint y1, GLint x2, GLint y2)
+void bresenham2(GLint x1, GLint y1, GLint x2, GLint y2)//分情况讨论
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 

@@ -7,6 +7,7 @@
 #define BOTTOM 4
 using namespace std;
 const float window_width = 800, window_height = 600;
+const int d = 8;
 
 struct point
 {
@@ -36,9 +37,35 @@ void draw_triangle_point(float x, float y, float color[]);
 void draw_straightLine_point(float x, float y, float color[]);
 void draw_remaining_line(float x1, float y1, float x2, float y2, float color[]);
 void CS_LineClip(float x1, float y1, float x2, float y2);
+
+int getdis(int x, int y)
+{
+	int ans = -1;
+	float shortdis = 99999999;
+	for (int i = 0; i < line.size(); i++)
+	{
+		float dis = sqrt(pow(x - line[i].bx, 2) + pow(y - line[i].by, 2));
+		if (dis < shortdis && dis <= d)
+		{
+			shortdis = dis;
+			ans = i;
+		}
+
+		dis = sqrt(pow(x - line[i].ex, 2) + pow(y - line[i].ey, 2));
+		if (dis < shortdis && dis <= d)
+		{
+			shortdis = dis;
+			ans = i;
+		}
+	}
+	return ans;
+}
+
 void drag_mouse(int x, int y);
 void mymouse(int button, int state, int x, int y);
 void keyboard(unsigned char key, int x, int y);
+
+
 
 
 int main(int argc, char* argv[])
@@ -184,48 +211,58 @@ void CS_LineClip(float x1, float y1, float x2, float y2)
 }
 void drag_mouse(int x, int y)
 {
-	if (bx && by)//避免提前计算，导致多画一条直线
-	{
-		ex = x;
-		ey = window_height - y;
-		//printf("直线待定坐标：起点(%d, %d) 终点(%d, %d)\n", bx, by, ex, ey);//把两个坐标打印出来
-		glClear(GL_COLOR_BUFFER_BIT);//清除窗口内容
-		glBegin(GL_LINES);
-		glColor3fv(straightLine_color);
-		glVertex2f(bx, by);
-		glVertex2f(ex, ey);
-		glEnd();
+	//int index = getdis(x, y);
+	//if (index == -1)//没有点，则是普通画直线
+	//{
+		if (bx && by)//避免提前计算，导致多画一条直线
+		{
+			ex = x;
+			ey = window_height - y;
+			//printf("直线待定坐标：起点(%d, %d) 终点(%d, %d)\n", bx, by, ex, ey);//把两个坐标打印出来
+			glClear(GL_COLOR_BUFFER_BIT);//清除窗口内容
+			glBegin(GL_LINES);
+			glColor3fv(straightLine_color);
+			glVertex2f(bx, by);
+			glVertex2f(ex, ey);
+			glEnd();
 
-		//把清空的三角形再画一遍
-		glLineWidth(2.0f);
-		glBegin(GL_LINES);
-		glColor3fv(triangle_color);
-		for (int i = 0; i < vertice.size(); i++)
-		{
-			if (i == vertice.size() - 1)
+			//把清空的三角形再画一遍
+			glLineWidth(2.0f);
+			glBegin(GL_LINES);
+			glColor3fv(triangle_color);
+			for (int i = 0; i < vertice.size(); i++)
 			{
-				glVertex2f(vertice[0].x, vertice[0].y);
-				glVertex2f(vertice[i].x, vertice[i].y);
+				if (i == vertice.size() - 1)
+				{
+					glVertex2f(vertice[0].x, vertice[0].y);
+					glVertex2f(vertice[i].x, vertice[i].y);
+				}
+				else
+				{
+					glVertex2f(vertice[i].x, vertice[i].y);
+					glVertex2f(vertice[i + 1].x, vertice[i + 1].y);
+				}
 			}
-			else
+			glEnd();
+			//把之前的直线再画一遍
+			glLineWidth(1.0f);
+			glBegin(GL_LINES);
+			glColor3fv(straightLine_color);
+			for (int i = 0; i < line.size(); i++)
 			{
-				glVertex2f(vertice[i].x, vertice[i].y);
-				glVertex2f(vertice[i + 1].x, vertice[i + 1].y);
+				glVertex2f(line[i].bx, line[i].by);
+				glVertex2f(line[i].ex, line[i].ey);
 			}
+			glEnd();
+			glFlush();
 		}
-		glEnd();
-		//把之前的直线再画一遍
-		glLineWidth(1.0f);
-		glBegin(GL_LINES);
-		glColor3fv(straightLine_color);
-		for (int i = 0; i < line.size(); i++)
-		{
-			glVertex2f(line[i].bx, line[i].by);
-			glVertex2f(line[i].ex, line[i].ey);
-		}
-		glEnd();
-		glFlush();
-	}
+	//}
+	//else 
+	//{
+	//	//cout << "修改控制点" << ":(" << line[index].x << ", " << input_vertice[index].y << ")" << endl;
+	//	line[index].x = x;
+	//	input_vertice[index].y = window_height - y;
+	//}
 }
 void mymouse(int button, int state, int x, int y)
 {

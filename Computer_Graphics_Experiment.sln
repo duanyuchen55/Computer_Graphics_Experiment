@@ -25,6 +25,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "E9-bezier曲线", "E8-bezie
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）", "E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）\E8-裁剪-固定矩形窗口交互式多边形（含凹多边形）.vcxproj", "{E311D745-A9A6-483F-986F-CE381AA58217}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "E7-裁剪-交互式矩形形裁剪直线-梁Baskey", "E7-裁剪-交互式矩形形裁剪直线\E7-裁剪-交互式矩形形裁剪直线.vcxproj", "{E08EF5F2-0566-45F6-A711-5C8992CBBF27}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "E11-B样条曲线", "E11-B样条曲线\E11-B样条曲线.vcxproj", "{22093ED5-A547-4884-9CEA-EFD7A9213B97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +125,22 @@ Global
 		{E311D745-A9A6-483F-986F-CE381AA58217}.Release|x64.Build.0 = Release|x64
 		{E311D745-A9A6-483F-986F-CE381AA58217}.Release|x86.ActiveCfg = Release|Win32
 		{E311D745-A9A6-483F-986F-CE381AA58217}.Release|x86.Build.0 = Release|Win32
+		{E08EF5F2-0566-45F6-A711-5C8992CBBF27}.Debug|x64.ActiveCfg = Debug|x64
+		{E08EF5F2-0566-45F6-A711-5C8992CBBF27}.Debug|x64.Build.0 = Debug|x64
+		{E08EF5F2-0566-45F6-A711-5C8992CBBF27}.Debug|x86.ActiveCfg = Debug|Win32
+		{E08EF5F2-0566-45F6-A711-5C8992CBBF27}.Debug|x86.Build.0 = Debug|Win32
+		{E08EF5F2-0566-45F6-A711-5C8992CBBF27}.Release|x64.ActiveCfg = Release|x64
+		{E08EF5F2-0566-45F6-A711-5C8992CBBF27}.Release|x64.Build.0 = Release|x64
+		{E08EF5F2-0566-45F6-A711-5C8992CBBF27}.Release|x86.ActiveCfg = Release|Win32
+		{E08EF5F2-0566-45F6-A711-5C8992CBBF27}.Release|x86.Build.0 = Release|Win32
+		{22093ED5-A547-4884-9CEA-EFD7A9213B97}.Debug|x64.ActiveCfg = Debug|x64
+		{22093ED5-A547-4884-9CEA-EFD7A9213B97}.Debug|x64.Build.0 = Debug|x64
+		{22093ED5-A547-4884-9CEA-EFD7A9213B97}.Debug|x86.ActiveCfg = Debug|Win32
+		{22093ED5-A547-4884-9CEA-EFD7A9213B97}.Debug|x86.Build.0 = Debug|Win32
+		{22093ED5-A547-4884-9CEA-EFD7A9213B97}.Release|x64.ActiveCfg = Release|x64
+		{22093ED5-A547-4884-9CEA-EFD7A9213B97}.Release|x64.Build.0 = Release|x64
+		{22093ED5-A547-4884-9CEA-EFD7A9213B97}.Release|x86.ActiveCfg = Release|Win32
+		{22093ED5-A547-4884-9CEA-EFD7A9213B97}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

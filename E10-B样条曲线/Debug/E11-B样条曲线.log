@@ -1,0 +1,22 @@
+﻿  源.cpp
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(42,35): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(42,21): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(80,27): warning C4305: “初始化”: 从“int”到“float”截断
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(81,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(100,40): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(103,18): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(104,13): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(124,37): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(129,63): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(139,40): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(158,38): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(162,28): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(170,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(176,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(253,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(267,15): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(269,15): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(302,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(307,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\Computer_Graphics\Computer_Graphics_Experiment\E11-B样条曲线\源.cpp(315,20): warning C4018: “<”: 有符号/无符号不匹配
+  E11-B样条曲线.vcxproj -> E:\Computer_Graphics\Computer_Graphics_Experiment\Debug\E11-B样条曲线.exe

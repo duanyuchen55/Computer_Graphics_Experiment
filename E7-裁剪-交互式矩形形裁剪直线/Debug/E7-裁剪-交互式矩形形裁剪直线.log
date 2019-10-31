@@ -1,0 +1,17 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (E7-裁剪-交互式矩形形裁剪直线.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  源.cpp
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式矩形形裁剪直线\源.cpp(37,16): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式矩形形裁剪直线\源.cpp(37,13): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式矩形形裁剪直线\源.cpp(115,27): warning C4305: “初始化”: 从“int”到“float”截断
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式矩形形裁剪直线\源.cpp(116,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式矩形形裁剪直线\源.cpp(139,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式矩形形裁剪直线\源.cpp(148,34): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式矩形形裁剪直线\源.cpp(149,25): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式矩形形裁剪直线\源.cpp(154,25): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式矩形形裁剪直线\源.cpp(168,14): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式矩形形裁剪直线\源.cpp(173,39): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式矩形形裁剪直线\源.cpp(176,20): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式矩形形裁剪直线\源.cpp(195,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式矩形形裁剪直线\源.cpp(249,35): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+E:\Computer_Graphics\Computer_Graphics_Experiment\E7-裁剪-交互式矩形形裁剪直线\源.cpp(249,21): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+  E7-裁剪-交互式矩形形裁剪直线.vcxproj -> E:\Computer_Graphics\Computer_Graphics_Experiment\Debug\E7-裁剪-交互式矩形形裁剪直线-梁Baskey.exe

@@ -23,7 +23,7 @@ typedef struct XET
 	float dx;
 	float ymax;//float
 	XET* next;
-}AET, NET;//AET 活性边表； NET新边表
+}AET, ET;//AET 活性边表； ET新边表
 
 void draw_a_point(int x, int y);
 void PolyScan();
@@ -72,19 +72,19 @@ void PolyScan()
 	//cout << "MAX_Y=" << Max_Y << endl;
 
 
-	//初始化AET表
+	//初始化AET表和ET表
 	AET* pAET = new AET;
 	pAET->next = NULL;
-	//初始化NET表
-	NET* pNET[800];
+
+	ET* pET[1000];
 	for (int i = 0; i <= Max_Y; i++)
 	{
-		pNET[i] = new NET;
-		//pNET[i]->x = NULL;//写的时候我是脑子瓦特了嘛，辣鸡bug，毁我青春！！
-		pNET[i]->next = NULL;;
+		pET[i] = new ET;
+		//pET[i]->x = NULL;//写的时候我是脑子瓦特了嘛，辣鸡bug，毁我青春！！
+		pET[i]->next = NULL;
 	}
 
-	//扫描并且建立NET表
+	//扫描并且建立ET表，遍历每一条扫描线，同时再遍历端点数组，寻找落在扫描线上的端点
 	int len = vertice.size();
 	for (int i = 0; i <= Max_Y; i++)
 	{
@@ -92,31 +92,30 @@ void PolyScan()
 		for (int j = 0; j < len; j++)
 		{
 			//cout << "j=" << j << endl;
-			if (i == vertice[j].y)
+			if (i == vertice[j].y)//找到了落在了扫描线上的一个端点，那么这个端点的和他的前一个和后一个端点都有一条边，这两条边的另外一个端点的y就是ymax
 			{
 				//cout <<"y="<< i << endl;
-				//如果一个点和前一个点有一条边相连，则该点和后面一个点也相连
 				if (vertice[(j - 1 + len) % len].y > vertice[j].y)
 				{
-					NET* p = new NET;
+					ET* p = new ET;
 					p->x = vertice[j].x;
 					p->ymax = vertice[(j - 1 + len) % len].y;//与当前扫描线相交的活性边 的 最高点即为相邻顶点的y
 					float DX = vertice[(j - 1 + len) % len].x - vertice[j].x;
 					float DY = vertice[(j - 1 + len) % len].y - vertice[j].y;
 					p->dx = DX / DY;//dx为直线斜率的倒数
-					p->next = pNET[i]->next;
-					pNET[i]->next = p;
+					p->next = pET[i]->next;
+					pET[i]->next = p;
 				}
 				if (vertice[(j + 1) % len].y > vertice[j].y)
 				{
-					NET* p = new NET;
+					ET* p = new ET;
 					p->x = vertice[j].x;
-					p->ymax = vertice[(j + 1) % len].y;
+					p->ymax = vertice[(j + 1) % len].y;//与当前扫描线相交的活性边 的 最高点即为相邻顶点的y
 					float DX = vertice[(j + 1) % len].x - vertice[j].x;
 					float DY = vertice[(j + 1) % len].y - vertice[j].y;
 					p->dx = DX / DY;//dx为直线斜率的倒数
-					p->next = pNET[i]->next;
-					pNET[i]->next = p;
+					p->next = pET[i]->next;
+					pET[i]->next = p;
 				}
 			}
 		}
@@ -125,34 +124,32 @@ void PolyScan()
 	//建立并且更新活性边表AET
 	for (int i = 0; i <= Max_Y; i++)
 	{
-		//计算新的交点 更新AET
-		NET* p = pAET->next;
+		//计算新的交点更新AET
+		//到活性边表的末尾
+		ET* p = pAET->next;
 		while (p)
 		{
 			p->x = p->x + p->dx;
 			p = p->next;
 		}
 		  
-		//排序
+		//排序，为了处理这种情况：上一次交点是一个点，在经过更新后，变成了两个点，两个点的x大小需要由他们的dx确定，导致大小顺序不确定，需要排序保证顺序
 		AET* tq = pAET;
 		p = pAET->next;
 		tq->next = NULL;
-
 		while (p != NULL)//顺着链表往下走
 		{
-			//找到第一个比它大的数字tq->next->x，则从p->next到tq->next都是比p->x小的
 			while (tq->next != NULL && tq->next->x <= p->x)
 				tq = tq->next;
-			//把这一段小的整体向前移动
-			NET* t = p->next;
+			ET* t = p->next;
 			p->next = tq->next;
 			tq->next = p;
 			p = t;
 
-			tq = pAET;//回到头
+			tq = pAET;
 		}
 
-		//(改进算法)先从AET表中删除ymax==i的结点****************************************/
+		//从AET表中删除那些ymax==i的点
 		AET* q = pAET;
 		p = q->next;
 		while (p)
@@ -170,15 +167,15 @@ void PolyScan()
 			}
 		}
 
-		//将NET中的新点用插入法插入AET，按x递增的顺序排列
-		p = pNET[i]->next;
+		//将ET中的新点用插入法插入AET，按x递增的顺序排列
+		p = pET[i]->next;
 		q = pAET;
 		while (p)
 		{
 			while (q->next != NULL && p->x >= q->next->x)
 				q = q->next;
 
-			NET* t = p->next;
+			ET* t = p->next;
 			p->next = q->next;
 			q->next = p;
 			p = t;
@@ -186,16 +183,16 @@ void PolyScan()
 			q = pAET;
 		}
 
-		//配对后填充颜色
+		//两个交点配对，连线
 		p = pAET->next;
 		while (p != NULL && p->next != NULL)
 		{
-			for (float j = p->x; j <= p->next->x; j++)
+			for (float j = p->x; j <= p->next->x; j++)//活性边表 每两个点之间涂色
 			{
 				draw_a_point(j, i);
 				//cout << "(" << j << ", " << i << ")" << endl;
 			}
-			p = p->next->next;//考虑端点情况
+			p = p->next->next;
 		}
 	}
 	glFlush();
